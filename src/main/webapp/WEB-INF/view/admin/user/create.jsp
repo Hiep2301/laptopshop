@@ -59,35 +59,7 @@
                 <jsp:include page="/WEB-INF/include/common_js.jsp" />
                 <script>
                     $(document).ready(function () {
-                        // $("form").submit(function (event) {
-                        //     event.preventDefault();
-                        //     var email = $("#email").val();
-                        //     var password = $("#password").val();
-                        //     var fullName = $("#fullName").val();
-                        //     var phoneNumber = $("#phoneNumber").val();
-                        //     var address = $("#address").val();
-                        //     var data = {
-                        //         email: email,
-                        //         password: password,
-                        //         fullName: fullName,
-                        //         phoneNumber: phoneNumber,
-                        //         address: address
-                        //     };
-                        //     console.log(data);
-                        //     // $.ajax({
-                        //     //     type: "POST",
-                        //     //     url: "/admin/user/create",
-                        //     //     data: JSON.stringify(data),
-                        //     //     contentType: "application/json",
-                        //     //     success: function (response) {
-                        //     //         alert("Create user successfully");
-                        //     //         window.location.href = "/admin/user";
-                        //     //     },
-                        //     //     error: function (response) {
-                        //     //         alert("Create user failed");
-                        //     //     }
-                        //     // });
-                        // });
+
                     });
                 </script>
             </body>
